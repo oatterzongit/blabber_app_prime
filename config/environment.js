@@ -1,7 +1,7 @@
 var _ = require('lodash');
 
 var localEnvVars = {
-  TITLE:      'blabber_app_prime',
+  TITLE:      'Blabber',
   SAFE_TITLE: 'blabber_app_prime'
 };
 
