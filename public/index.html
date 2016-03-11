@@ -6,6 +6,8 @@
   <title>Blabber</title>
   <meta name="description" content="A template app.">
 
+  <script src='https://code.jquery.com/jquery-2.2.1.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/lodash/4.6.1/lodash.js'></script>
   <link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
 <body>
@@ -15,7 +17,17 @@
     <h2>Welcome to Blabber!</h2>
   </header>
   <main>
-    <p>The content goes here...</p>
+    <section class="blabs blabs-list" id="blabs-list">
+
+      <!-- Insertion point for template -->
+      <!-- <article class="blab blab-container">
+        <h3><a href="#">Title</a></h3>
+        <span>Created at 5:40pm, by <a href="#">Creator Name</a></span><br>
+        <button type="button" name="upvote">Upvote</button>
+        <span>Vote Count:</span>
+        <button type="button" name="downvote">Downvote</button>
+      </article> -->
+    </section>
   </main>
 
   <script src='/js/main.js'></script>
